@@ -1,0 +1,87 @@
+
+Parte 1. Desarollo téorico. 12 pts
+
+Lista de Preguntas Seleccione 4 de ellas unicamente.
+
+1. [3 pts] ¿Qué es la herencia en Java y cómo se implementa? 
+Proporcione un ejemplo práctico de una clase que hereda de otra, 
+y explica la relación entre la clase padre e hija.
+
+R/La herencia es el metodo por el cual una clase hereda sus contenidos a otra 
+clase y el cual se implementa a traves de flechas de nombre "has".
+
+por ejemplo la clase avion puede heredar sus metodos a la clase vuelo y dicha
+clase los puede usar de forma normal como si pertenecieran a ella, dado que
+la clase vuelo hereda de avion.
+
+      Avion           Vuelo
+    (Peso    )      (Avion avion)
+    (Carga   )----->(Pasajeros  )
+    (Acientos)      (Destino    )
+
+
+
+2.[3 pts] Explique el concepto de polimorfismo en Java. 
+Proporcione un ejemplo concreto utilizando métodos y explique cómo 
+el polimorfismo facilita el diseño de programas flexibles y extensibles.
+
+R/El polimorfismo permite la creacion de varios metodos que pueden ser 
+reutilizados para otros programas de forma indefinida osea que pueden ser usados
+cuandatas veces quiera.
+
+POr ejemplo si creo el metodo SumaNumerica y necesito implementar metodos de 
+suma en varios secciones de mi trabajo simplemente puedo llamar al metodo 
+SumaNumerica y ahorrarme el tener que escribir lineas de mas en un trabajo.
+
+
+3.[3 pts] ¿Cuál es el propósito de una clase abstracta en Java? 
+Proporciona un ejemplo de una clase abstracta y explica cómo se diferencia
+ de una clase regular.
+
+R/
+
+
+
+
+4.[3 pts] Describa cómo se pueden leer y escribir datos en archivos en Java. 
+Menciona la importancia de manejar excepciones en este contexto.
+
+
+R/Atravez del BufferWriter se pueden escribir datos en los archivos de .txt y 
+utilizando el BufferReader se pueden leer esos datos del archivo .txt, esto es 
+importante para mantener una memoria semi artificial de lo que esta haciendo
+el programa en caso de que sea cerrado o finalizado y asi mantener la 
+informacion almacenada para poder usarla luego o si sigue siendo necesaria una
+vez el programa sea finalizado.
+
+
+
+5.[3 pts] Explica el concepto de recursividad en Java. 
+Proporciona un ejemplo de una función recursiva y discute cómo funciona,
+ así como las precauciones que deben tomarse al utilizar la recursividad.
+
+
+R/El concepto de recursividad se basa en hacer de un problema grande algo mas 
+pequeño atravez de metodos recursivos o de repeticion.
+
+Por ejemplo si quiero sacar el factorial de 5, atravez de un metodo recursivo
+en la que va a ir disminuyendo ese numero mientras de guarda su resultado hasta
+que llegue a una respuesta simple por ejemplo una disminucion hasta 0 y una ves
+llegue a 0 simplemente se devuelve el resultado de cada vuelta para llegar a la
+respuesta del factorial antes dicho.
+
+Funciona de forma mas simple y sencilla que las metodos de antes como los for 
+anidados o otros mas extensos, suele ser algo mas practico y sencillo sin 
+ambargo, esto puede ser perjudicial para la memoria de la computadora ya que
+replica los metodos muchas veces y puede llegar a dejar una sobrecarga de 
+memoria.
+
+
+
+6.[3 pts] ¿Cómo se gestiona dinámicamente la memoria en Java? 
+Explica cómo Java aborda la liberación de memoria.
+
+
+R/
+
+
